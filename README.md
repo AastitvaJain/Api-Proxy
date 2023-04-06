@@ -1,7 +1,9 @@
 ##Project Title
+
 API Broker
 
 ##Description
+
 This code sample represents a simple implementation of a proxy class that selects the best provider API based on performance metrics and calls the selected API to retrieve location data.
 
 The Proxy class contains a list of ProviderModel, which represent the different providers available to the proxy. Each provider has a name, chance of error, and a RPM limit. The class also contains a dictionary of ProviderStatsModel, which are used to record the statistics of each API call.
